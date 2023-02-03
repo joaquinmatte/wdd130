@@ -65,7 +65,7 @@ footer p {
     font-size: 1.2em;
 }
 footer p a:hover{
-    text-decoration: underline;
+
 }
 .home-title{
     color: black;
@@ -78,4 +78,7 @@ h4{
 }
 #hero-img{
     width: 100%;
+}
+.logo {
+    width: 80px;
 }

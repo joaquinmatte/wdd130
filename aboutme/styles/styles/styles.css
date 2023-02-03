@@ -8,12 +8,18 @@ main p {
     margin: 50px auto;
     text-align: center;
 }
+nav{
+    background-color: steelblue;
+}
 a {
     font-size: 1.5em;
+    color: white;
+    padding: 25px;
 }
 
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 nav, footer {
     text-align: center;
@@ -24,8 +30,22 @@ nav, footer {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 a:hover {
     background-color: white;
     color: steelblue;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+}
+nav{
+    padding: 25px;
+}
+body {
+    margin: 0;
+}
+img {
+    border: 4px solid steelblue;
 }
