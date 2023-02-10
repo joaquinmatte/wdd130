@@ -1,0 +1,12 @@
+#tart {
+    grid-column: 1/4;
+}
+#Berry {
+    grid-column: auto;
+    float: right;
+    color: red;
+}
+#cherry {
+    max-width: 100%;
+    float: left;
+}
