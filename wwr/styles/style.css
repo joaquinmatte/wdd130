@@ -189,6 +189,48 @@ h2{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/*Rivers website.*/
+#salmon{
+    grid-template-columns: 100px 100px 100px;
+    grid-row: 1/3;
+    grid-column: 5/5;
+}
+#raft{
+    width: 370%;
+    margin-left: -150px;
+}
+#salmtext{
+    margin-top: -10px;
+    width: 370%;
+    margin-left: -150px;
+    font-size: larger;
+}
+#fork{
+    width: 300%;
+    margin-bottom: -5px;
+    margin-left: -150px;
+}
+#canyon{
+    grid-template-columns: 100px 100px 100px;
+    grid-row: 6/6;
+    grid-column: 5/5;
+    margin-left: -20px;
+}
+#deer{
+    width: 275%;
+    margin-left: -140px;
+}
+#cantext{
+    width: 270%;
+    font: larger;
+    margin-top: -10px;
+    margin-left: -140px;
+}
+#desolation{
+   width: 275%;
+   margin-bottom: -10px;
+   margin-left: -140px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
