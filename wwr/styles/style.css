@@ -43,6 +43,7 @@ nav a:hover{
 nav {
     display: flex;
     justify-content: space-around;
+    color: black;
 }
 .book, .join{
     background-color: cyan;

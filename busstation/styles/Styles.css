@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro&family=Righteous&display=swap');
+
+header {
+    background-color: rgb(66, 66, 144);
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: Righteous, Maven-Pro, Anton;
+}
+.logo {
+    width: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: rgb(223, 152, 21);
+}
+nav a:hover {
+    background-color: lightblue;
+    color: white;
+}
+nav a {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(58, 128, 151);
+    text-decoration: none;
+    padding: 35px
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img{
+    width: 100%;
+    background-color: rgb(66, 66, 144);
+}
+.home-title{
+    color: rgb(81, 81, 246);
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.days-week {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-row: 1/8;
+    grid-column: 1/7;
+    font: xx-large;
+    background-color: rgb(66, 66, 144);
+    margin-top: -10px;
+    padding: 10px;
+    font-family: Anton, Righteous, Maven-pro;
+}
+#for {
+    grid-row: 4/4;
+    grid-column: 2/3
+
+}
+#more {
+    grid-row: 4/4;
+    grid-column: 6/7;
+}
+footer{
+    background-color: orange;
+    color: black;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Anton;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
