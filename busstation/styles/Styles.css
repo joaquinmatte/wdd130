@@ -47,19 +47,18 @@ nav a {
 }
 .home-title{
     color: rgb(81, 81, 246);
-    font-size: 2em;
-    margin-top: 10px;
+    font-size: 4em;
     margin-left: 400px;
+    margin-top: 200px;
 }
 #hero-msg{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
+    grid-row: 1/1;
+    grid-column: 2/2;
 }
 .days-week {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
     grid-row: 1/8;
     grid-column: 1/7;
     font: xx-large;
@@ -68,14 +67,39 @@ nav a {
     padding: 10px;
     font-family: Anton, Righteous, Maven-pro;
 }
+#mon {
+    margin-left: 60px;
+}
+#tue {
+    margin-left: 60px;
+}
+#wed {
+    margin-left: 60px;
+}
+#thur {
+    margin-left: 60px;
+}
+#fri {
+    margin-left: 60px;
+}
+#sat {
+    margin-left: 60px;
+}
+.day {
+    margin-left: 60px;
+}
 #for {
-    grid-row: 4/4;
+    grid-row: 2/2;
     grid-column: 2/3
 
 }
 #more {
-    grid-row: 4/4;
-    grid-column: 6/7;
+    grid-row: 2/2;
+    grid-column: 5/5;
+}
+#litle {
+    grid-row: 3/3;
+    grid-column: 4/4;
 }
 footer{
     background-color: orange;
