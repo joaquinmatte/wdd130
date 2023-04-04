@@ -159,6 +159,7 @@ footer p {
     grid-column: 2/4;
     width: 100%;
     font-family:  Righteous, Maven-Pro, Anton;
+    padding-left: 125px;
 }
 #littl-msg {
     font: xx-large;
